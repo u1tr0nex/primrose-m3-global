@@ -2,6 +2,10 @@
 
 Community release notes and setup guidance for using PrimroseCam, the retained HyperOS 1 imaging-engine tuning profile, and the Leica Essential M3 workflow on the Xiaomi 14 Ultra global software stack.
 
+> ## M3 is the highlight
+>
+> PrimroseCam and MiCamOS1Revive already provide the camera-layer and HyperOS 1 engine foundation. **This project adds the complete Leica Essential M3 experience on top:** M3 entry, monochrome live preview, Gallery-based Leica processing, native 4096 × 3072 style/grain output, and Leica-frame compatibility for both the Essential capture and rendered M3 export.
+
 ## Scope
 
 This repository intentionally contains documentation only. It does not publish Xiaomi/Leica proprietary assets, decompiled code, compatibility-patch internals, or source material whose redistribution terms cannot be verified.
