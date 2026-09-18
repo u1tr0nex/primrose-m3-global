@@ -3,6 +3,7 @@
 ## Upstream projects
 
 - **PrimroseCam** — [BlueMoon-Xiaomi/PrimroseCam](https://github.com/BlueMoon-Xiaomi/PrimroseCam), described by its maintainers as a Xiaomi 14 Ultra Leica Camera Suite.
+- **MiCamOS1Revive** — the HyperOS 1-derived imaging-engine foundation named in PrimroseCam’s upstream documentation. This release retains a compatible tuning profile only for the tested still-photo paths; it does not redistribute the upstream vendor payloads or implementation.
 - **Prometheus-Camera** — [benbaobaoshigemi/Prometheus-Camera](https://github.com/benbaobaoshigemi/Prometheus-Camera), an enhanced Xiaomi Camera project that includes the Legend M3 add-on. Its repository declares GPL-3.0.
 - **Phoenix Camera / MiCamOS1Revive / Legend M3 community contributors** — acknowledged for the foundations and testing knowledge used by the broader camera-mod ecosystem.
 

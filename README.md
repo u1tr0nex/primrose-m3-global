@@ -6,6 +6,19 @@ Community release notes and setup guidance for using PrimroseCam, the retained H
 
 This repository intentionally contains documentation only. It does not publish Xiaomi/Leica proprietary assets, decompiled code, compatibility-patch internals, or source material whose redistribution terms cannot be verified.
 
+## Two upstream foundations, one tested global setup
+
+This setup brings together two complementary upstream directions:
+
+| Foundation | What it contributes |
+| --- | --- |
+| [PrimroseCam](https://github.com/BlueMoon-Xiaomi/PrimroseCam) | Leica-oriented camera experience: the camera application layer, Leica UI, live filter workflow, watermark/filter ecosystem, and the user-facing camera workflow for Xiaomi 14 Ultra. |
+| **MiCamOS1Revive** engine profile | HyperOS 1-derived imaging-engine tuning: supported still-image pipeline configuration, camera-engine tuning profile, and the preferred rendering character retained on the tested HyperOS 3 global build. |
+
+The result is intended to combine PrimroseCam’s interactive Leica camera experience with the retained OS1 engine character, then extend the Leica Essential workflow with tested M3 processing and Gallery-frame support.
+
+The upstream PrimroseCam project credits MiCamOS1Revive and Phoenix Camera community contributors as part of this combined camera/engine approach. This repository does not redistribute the associated vendor tuning payloads, libraries, or assets.
+
 ## Tested environment
 
 - Device: Xiaomi 14 Ultra (`aurora`)
@@ -22,6 +35,7 @@ See [installation](docs/INSTALLATION.md), [compatibility](docs/COMPATIBILITY.md)
 
 - PrimroseCam Leica camera interface and filter workflow on the global software stack
 - Retained HyperOS 1 imaging-engine tuning profile for the tested still-photo paths
+- OS1-derived supported photo-pipeline configuration and render-character profile
 - Main, ultra-wide, and telephoto use through the normal Camera application workflow
 - Leica Essential entry and M3 processing workflow
 - Monochrome live preview for M3 capture
@@ -36,6 +50,16 @@ The tested configuration retains a compatible HyperOS 1 tuning profile for the s
 
 This repository describes the validated integration and behaviour only. It does not redistribute Xiaomi tuning payloads, vendor libraries, or private compatibility implementation details.
 
+## Upstream feature attribution
+
+### PrimroseCam camera layer
+
+The upstream PrimroseCam project describes a Leica Camera Suite for Xiaomi 14 Ultra, including Leica-oriented UI and camera experience, live filter workflow, watermark/filter assets, and supporting module documentation. Refer to its [README and releases](https://github.com/BlueMoon-Xiaomi/PrimroseCam) for the complete upstream feature list.
+
+### MiCamOS1Revive engine layer
+
+The MiCamOS1Revive portion is the imaging-engine side of the upstream combination: a HyperOS 1-derived tuning profile for supported still-photo paths. In the validated configuration, it is used to retain the desired rendering character on HyperOS 3; it is not represented as a wholesale replacement of Xiaomi’s camera HAL, native imaging libraries, or all vendor scene/lens pipelines.
+
 ## Important notes
 
 - This is an unofficial, device-specific community setup. Back up your data and current modules before changing camera/root components.
@@ -47,6 +71,7 @@ This repository describes the validated integration and behaviour only. It does 
 This project builds on the work of the upstream projects and their maintainers:
 
 - [BlueMoon-Xiaomi / PrimroseCam](https://github.com/BlueMoon-Xiaomi/PrimroseCam)
+- MiCamOS1Revive engine profile, as credited by PrimroseCam’s upstream documentation
 - [benbaobaoshigemi / Prometheus-Camera](https://github.com/benbaobaoshigemi/Prometheus-Camera)
 - Phoenix Camera, MiCamOS1Revive, Legend M3, Xiaomi Camera, Leica, and the wider Xiaomi camera-mod community
 
