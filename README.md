@@ -29,7 +29,7 @@ The upstream PrimroseCam project credits MiCamOS1Revive and Phoenix Camera commu
 - Root: KernelSU Next
 - Hook runtime: Vector LSPosed 2.2
 
-See [installation](docs/INSTALLATION.md), [compatibility](docs/COMPATIBILITY.md), and [FAQ](docs/FAQ.md).
+See [installation](docs/INSTALLATION.md), [compatibility](docs/COMPATIBILITY.md), [FAQ](docs/FAQ.md), and the [open-source release materials](OPEN_SOURCE_RELEASE.md).
 
 ## Features verified on the tested build
 
@@ -64,7 +64,7 @@ The MiCamOS1Revive portion is the imaging-engine side of the upstream combinatio
 
 - This is an unofficial, device-specific community setup. Back up your data and current modules before changing camera/root components.
 - Camera stacks, Gallery, Media Editor, device firmware, and root frameworks change frequently. This configuration is not a universal installer.
-- The APK is not hosted in this repository until its redistribution and source-obligation status are fully resolved. Do not request or publish proprietary Xiaomi/Leica assets here.
+- The companion APK and its corresponding modified source are published under the release materials described in [OPEN_SOURCE_RELEASE.md](OPEN_SOURCE_RELEASE.md). Xiaomi/Leica camera APKs, vendor libraries, and proprietary imaging assets are not included.
 
 ## Credits
 
