@@ -1,6 +1,6 @@
 # Primrose M3 Global
 
-Community release notes and setup guidance for using PrimroseCam, the retained HyperOS 1 imaging-engine tuning profile, and the Leica Essential M3 workflow on the Xiaomi 14 Ultra global software stack.
+An open companion-module release for using PrimroseCam, the retained HyperOS 1 imaging-engine tuning profile, and the Leica Essential M3 workflow on the Xiaomi 14 Ultra global software stack.
 
 > ## M3 is the highlight
 >
@@ -8,7 +8,9 @@ Community release notes and setup guidance for using PrimroseCam, the retained H
 
 ## Scope
 
-This repository intentionally contains documentation only. It does not publish Xiaomi/Leica proprietary assets, decompiled code, compatibility-patch internals, or source material whose redistribution terms cannot be verified.
+This repository publishes the tested M3 companion APK, its corresponding modified source, and setup documentation. It does not publish Xiaomi/Leica proprietary camera APKs, vendor libraries, tuning payloads, or other assets whose redistribution terms cannot be verified.
+
+**Module download:** [M3-Primrose-14Ultra-final.apk](releases/M3-Primrose-14Ultra-final.apk)
 
 ## Two upstream foundations, one tested global setup
 

@@ -3,7 +3,7 @@
 ## What is included
 
 - `releases/M3-Primrose-14Ultra-final.apk` — tested companion-module build for the environment stated in the README.
-- `source/upstream/LegendM3/` — the supplied upstream Legend M3 source package.
+- `source/upstream/` — the supplied upstream Legend M3 and Phoenix source archives.
 - `source/modified-smali/` — the complete smali source set assembled into the final companion build.
 - `LICENSE` and `NOTICE.md` — GPL-3.0 and upstream attribution notices.
 
